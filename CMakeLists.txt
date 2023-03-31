@@ -1,7 +1,7 @@
 project(cgal-test-fetchcontent)
 cmake_minimum_required(VERSION 3.14)
 
-message(STATUS "Third-party (external): creating target 'CGAL::CGAL'")
+message(STATUS "Third-party (external): creating CGAL targets")
 
 include(FetchContent)
  FetchContent_Declare(
@@ -15,4 +15,4 @@ FetchContent_MakeAvailable(CGAL)
 
 
 add_executable(for_loop_2 for_loop_2.cpp)
-target_link_libraries(for_loop_2 CGAL::Core)
+target_link_libraries(for_loop_2 CGAL::CGAL CGAL::CGAL_Core)
