@@ -1,3 +1,4 @@
 # cgal-test-fetchcontent
 
-Minimalistic example CGAL+Fetch_content
+Minimalistic CGAL+Fetch_content example.
+
